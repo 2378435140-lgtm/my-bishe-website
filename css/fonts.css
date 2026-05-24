@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Ma Shan Zheng';
+  font-display: swap;
+  src: url('../assets/fonts/ma-shan-zheng.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 300;
+  font-display: swap;
+  src: url('../assets/fonts/noto-sans-sc-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/noto-sans-sc-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 500;
+  font-display: swap;
+  src: url('../assets/fonts/noto-sans-sc-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-display: swap;
+  src: url('../assets/fonts/pacifico.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-display: swap;
+  src: url('../assets/fonts/share-tech-mono.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Xingkai';
+  font-display: swap;
+  src: url('../assets/fonts/xingkai.ttf') format('truetype');
+}

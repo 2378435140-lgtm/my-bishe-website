@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>杨凯荃的个人博客 | Hello World</title>
+  <meta name="description" content="一位来自南通师范高等专科学校云计算技术与应用专业的学生的个人博客">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preload" as="image" href="images/feichuan.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Pacifico&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-scene" aria-hidden="true"></div>
+
+  <main class="page">
+    <div class="main-container">
+      <div class="content-grid">
+        <div class="col-left">
+          <div class="hero-section">
+            <div class="profile-section">
+              <div class="avatar-wrap">
+                <img src="images/touxiang.jpg" alt="头像" class="avatar">
+              </div>
+              <span class="site-title-text">个人博客</span>
+            </div>
+
+            <section class="intro-card glass-card">
+              <div class="card-header">
+                <span class="terminal-icon">&gt;_</span>
+                <h1 class="intro-title" id="typewriterTitle">System Status: Online</h1>
+              </div>
+              <div class="log-content" id="logContent">
+                <p id="logLine1"></p>
+                <p id="logLine2"></p>
+                <p id="logLine3"></p>
+              </div>
+              <div class="badge-group">
+                <span class="badge badge--cloud">
+                  <i class="fa-solid fa-cloud"></i> Cloud Computing
+                </span>
+                <span class="badge badge--explorer">
+                  <i class="fa-solid fa-compass"></i> Explorer
+                </span>
+              </div>
+            </section>
+
+            <div class="social-links">
+              <a href="#" class="social-link social-link--popup" title="微信">
+                <i class="fa-brands fa-weixin" aria-hidden="true"></i>
+                <div class="social-popup">
+                  <img src="images/erweima.jpg" alt="微信二维码" width="120" height="120">
+                </div>
+              </a>
+              <a href="#" class="social-link" title="QQ">
+                <i class="fa-brands fa-qq" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" title="邮箱">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link social-link--popup" title="网易云音乐">
+                <i class="fa-solid fa-music" aria-hidden="true"></i>
+                <div class="social-popup">
+                  <img src="images/wangyiyun.png" alt="网易云音乐" width="120" height="120">
+                </div>
+              </a>
+              <a href="#" class="social-link" title="Facebook">
+                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="top-widgets">
+            <section class="quote-card glass-card">
+              <p class="anime-quote">When something is important enough, you do it even if the odds are not in your favor.</p>
+              <p class="anime-source">- Elon Musk</p>
+            </section>
+
+            <section class="clock-card glass-card">
+              <div class="date-line" id="date">2026年5月23日 星期六</div>
+              <div class="time-line" id="time">16:20:33</div>
+              <div class="weather-line">
+                <span id="weather">南通 小雨 28°C 东风15级</span>
+              </div>
+            </section>
+          </div>
+
+          <section class="nav-section">
+            <div class="nav-header">
+              <div class="nav-dot"></div>
+              <span class="nav-title">导航</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav class="nav-grid" id="navGrid">
+              <a href="growth.html" class="nav-item glass-btn">
+                <span class="nav-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+                  </svg>
+                </span>
+                <span>成长</span>
+              </a>
+              <a href="gallery.html" class="nav-item glass-btn">
+                <span class="nav-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                  </svg>
+                </span>
+                <span>图库</span>
+              </a>
+              <a href="#" class="nav-item glass-btn" id="gameBtn">
+                <span class="nav-icon">
+                  <i class="fa-solid fa-rocket"></i>
+                </span>
+                <span>星际贪吃蛇</span>
+              </a>
+              <a href="#" class="nav-item glass-btn" id="radarBtn">
+                <span class="nav-icon">
+                  <i class="fa-solid fa-satellite-dish"></i>
+                </span>
+                <span>情报中心</span>
+              </a>
+              <a href="#" class="nav-item glass-btn nav-item--disabled">
+                <span class="nav-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm0-4H7v-2h7v2zm-3-5V3.5L18.5 9H13z"/>
+                  </svg>
+                </span>
+                <span>开发中...</span>
+              </a>
+              <a href="#" class="nav-item glass-btn nav-item--disabled">
+                <span class="nav-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm0-4H7v-2h7v2zm-3-5V3.5L18.5 9H13z"/>
+                  </svg>
+                </span>
+                <span>敬请期待...</span>
+              </a>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="music-player" id="musicPlayer">
+    <button class="play-btn" onclick="toggleMusic()">▶</button>
+    <div class="bars-container">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </div>
+    <audio id="audio" src="music/Incognito - 1975.mp3" loop></audio>
+  </div>
+
+  <div class="game-modal" id="gameModal">
+    <div class="game-container">
+      <div class="game-header">
+        <h2>星际贪吃蛇</h2>
+        <button class="close-btn" id="closeGame">&times;</button>
+      </div>
+      <div class="score-display">分数: <span id="score">0</span></div>
+      <canvas id="gameCanvas" tabindex="0"></canvas>
+      <div class="game-controls">
+        <p>使用 方向键 或 WASD 控制移动</p>
+        <button class="start-btn" id="startGame">开始游戏</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="news-modal" id="newsModal">
+    <div class="news-container">
+      <div class="news-header">
+        <div class="news-title-row">
+          <i class="fa-solid fa-satellite-dish"></i>
+          <h2>今日科技热点</h2>
+        </div>
+        <button class="close-btn" id="closeNews">&times;</button>
+      </div>
+      <div class="news-list" id="newsList">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+          <p>正在连接卫星信号<span class="dots">...</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
